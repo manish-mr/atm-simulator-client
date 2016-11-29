@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <h2>Cash Withdrawal</h2>
+  <p class="lead">
+    Please enter the amount:
+  </p>
+  <span style="color:red"><i>{{errorMessage}}</i></span>
+  <p class="lead">
+    <input type="number" ng-model="withdrawObj.amount"></input>
+  </p>
+
+  <p>
+      <a class="btn btn-lg btn-success" ng-click="withdraw()">Withdraw</a>
+  </p>
+
+</div>

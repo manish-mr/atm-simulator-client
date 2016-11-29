@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h2>PIN</h2>
+  <p class="lead">
+    Please enter your PIN:
+  </p>
+  <span style="color:red"><i>{{errorMessage}}</i></span>
+  <p class="lead">
+    <input type="password" pattern="[0-9]*" ng-model="accountDetails.pin"></input>
+  </p>
+    <p>
+      <a class="btn btn-lg btn-success" ng-click="validatePin()">Submit</a>
+  </p>
+
+</div>

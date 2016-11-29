@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h2>Welcome to ABC Bank</h2>
+  <p class="lead">
+    Please enter below details:
+  </p>
+  <span style="color:red"><i>{{errorMessage}}</i></span>
+  <p class="lead">
+    Customer Name: <input type="text" ng-model="cardDetails.custName"></input>
+  </p>
+  <p class="lead">
+    Card Number: <input type="number" ng-model="cardDetails.cardNumber"></input>
+  </p>
+  <p class="lead">
+    Account Number: <input type="number" ng-model="cardDetails.accountNumber"></input>
+  </p>
+  
+  <p><a class="btn btn-lg btn-success" ng-click="swipe()">Swipe Card <span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
